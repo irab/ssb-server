@@ -12,8 +12,8 @@
     "ssb-server": "./bin.js"
   },
   "pkg": {
-    "assets": "emoji-named-characters/pngs/*"
-  }
+    "assets": "node_modules/emoji-named-characters/pngs/*"
+  },
   "scripts": {
     "start": "node bin start",
     "prepublishOnly": "npm test",
